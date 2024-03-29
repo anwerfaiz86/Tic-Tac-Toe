@@ -1,0 +1,133 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4b22bc;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  font-size: 8vmin;
+  color: rgb(238, 27, 11);
+  background-color: #99e919;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+#reset-btn {
+  background-color: #7d13e7;
+  color: #eee8e8;
+  padding: 20px;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  border: none;
+}
+#new-btn {
+  background-color: #7d13e7;
+  color: #eee8e8;
+  padding: 20px;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  border: none;
+}
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: blueviolet;
+
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  font-size: 8vmin;
+  color: rgb(238, 27, 11);
+  background-color: #99e919;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+.msg-container{
+  /* height: 100vmin; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+#msg{
+  font-size: 2rem;
+  color: #0edbaf;
+  font-weight: 10px;
+}
+
+#new-btn{
+  padding: 12px;
+  font-size: 20px;
+  color: #de08d7;
+  border-radius: 12px;
+  border: none;
+}
+
+#reset-btn{
+  padding: 12px;
+  font-size: 20px;
+  color: #de08d7;
+  border-radius: 12px;
+  border: none;
+}
